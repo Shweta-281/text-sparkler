@@ -1,16 +1,21 @@
 {
-  "name": "alternator",
+  "name": "text-sparkler",
   "version": "1.0.0",
-  "main": "./src/index.js",
-  "types": "./src/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "prepare": "npm run build"
   },
   "bin": {
-    "alternator": "./src/cli.js"
+    "text-sparkler": "./dist/cli.js"
   },
+  "files": [
+    "dist/**/*",
+    "src/react/**/*",
+    "src/vue/**/*"
+  ],
   "dependencies": {
     "commander": "^13.1.0",
     "react": "^19.0.0",
