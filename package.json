@@ -1,15 +1,15 @@
 {
   "name": "text-sparkler",
   "version": "1.0.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "prepare": "npm run build"
   },
   "bin": {
-    "text-sparkler": "./dist/cli.js"
+    "text-sparkler": "./src/cli.js"
   },
   "files": [
     "dist/**/*",
