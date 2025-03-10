@@ -36,9 +36,7 @@ console.log(textSparkler('trending now', {
   emojiFrequency: 3 
 }));
 // Output: "Tr🔥eNd🔥iNg🔥 No🔥w"
-Command Line (CLI)
-bash
-Copy
+
 # Basic transformation
 text-sparkler "make it awesome"
 # Output: MaKe iT aWeSoMe
@@ -47,9 +45,11 @@ text-sparkler "make it awesome"
 text-sparkler "attention needed" --emoji "⚠️" --frequency 2
 # Output: At⚠️TeNt⚠️iOn⚠️ Ne⚠️EdEd⚠️
 Framework Components 🖥️
-React
-tsx
-Copy
+
+## Examples
+
+```react live
+
 import { TextSparkler } from 'text-sparkler/react';
 
 export default function Bio() {
@@ -63,9 +63,10 @@ export default function Bio() {
   );
 }
 // Renders: "fRoNt💻DeVeLoPeR"
-Vue
-vue
-Copy
+## Examples
+
+```vue live
+
 <script setup>
 import { TextSparkler } from 'text-sparkler/vue';
 </script>
@@ -78,12 +79,7 @@ import { TextSparkler } from 'text-sparkler/vue';
   />
 </template>
 <!-- Renders: "OpEn ❤️SoUrCe ❤️OnTrIbUtOr" -->
-Advanced Options ⚙️
-Option	Type	Default	Description
-startWith	string	'upper'	Starting case ('upper' or 'lower')
-skipSpaces	boolean	true	Ignore spaces in transformation
-emoji	string	-	Emoji character to insert
-emojiFrequency	number	1	Insert emoji every N characters
+
 Why Text Sparkler? 🤔
 ✅ Zero Dependencies
 ✅ Type-Safe API
