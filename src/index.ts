@@ -1,11 +1,11 @@
-export type AlternatorOptions = {
+export type SparklerOptions = {
   startWith?: 'upper' | 'lower';
   skipSpaces?: boolean;
   emoji?: string;
   emojiFrequency?: number;
 };
 
-export function alternator(str: string, options: AlternatorOptions = {}): string {
+export function textSparkler(str: string, options: SparklerOptions = {}): string {
   // Merge with defaults
   const {
     startWith = 'upper',
