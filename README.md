@@ -86,3 +86,8 @@ Why Text Sparkler? 🤔
 ✅ Framework Agnostic Core
 ✅ MIT Licensed
 ✅ Test Coverage
+
+#### **LICENSE**
+```text
+MIT License
+Copyright (c) [2025] [Shweta]

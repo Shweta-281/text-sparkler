@@ -1,8 +1,8 @@
 {
   "name": "text-sparkler",
   "version": "1.0.3",
-  "main": "./dist/index.ts",
-  "types": "./dist/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -10,7 +10,7 @@
     "start": "ts-node src/cli.ts"
   },
   "bin": {
-    "text-sparkler": "./dist/cli.ts"
+    "text-sparkler": "./dist/cli.js"
   },
   "files": [
     "dist/**/*",
@@ -20,6 +20,7 @@
   "dependencies": {
     "commander": "^13.1.0",
     "react": "^19.0.0",
+    "text-sparkler": "^1.0.3",
     "vue": "^3.5.13"
   },
   "devDependencies": {
